@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #symbol {
+        font-size: 120%;
+        line-height: 135%;
+    }
+
+    dt{
+        margin: 10px 0;
+    }
+
+</style>
+<body>
+<h2>Market Research Survey</h2>
+<p>Please take a few moments to complete this satisfaction survey. </p>
+<hr>
+<dl>
+    <dt>
+        <strong>What is your age range?</strong><br>
+        <select name="age_range" id="age_range">
+            <option>18-24</option>
+        </select>
+    </dt>
+    <dt>
+        <strong>What is your yearly income range?</strong><br>
+        <select name="yi_range" id="yi_range">
+            <option>$0-$25,000</option>
+        </select>
+    </dt>
+    <dt>
+        <strong>Gender Identity</strong><br>
+        <input type="radio"><label>Male</label><br>
+        <input type="radio"><label>Female</label><br>
+        <input type="radio"><label>Nonbinary</label><br>
+        <input type="radio"><label>Other</label><br>
+        <input type="text">
+    </dt>
+    <dt>
+        <strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong><br>
+        <input type="checkbox"><label>Product 1</label><br>
+        <input type="checkbox"><label>Product 2</label><br>
+        <input type="checkbox"><label>Product 3</label>
+    </dt>
+    <dt>
+        <strong>How often would you use our new product?</strong><br>
+        <input type="radio"><label>Daily</label><br>
+        <input type="radio"><label>Weekly</label><br>
+        <input type="radio"><label>Monthly</label>
+    </dt>
+    <dt>
+        <strong>What would you pay for the new product?</strong><br>
+        <span id="symbol">$<input size="10" type="text">.<input size="2" type="text"></span>
+    </dt>
+</dl>
+</body>
+</html>
